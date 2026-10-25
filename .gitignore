@@ -1,0 +1,20 @@
+# 密钥和本地配置
+.env
+.env.*
+
+# SQLite 数据库（含 WAL 模式的 -wal、-shm 文件）
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
